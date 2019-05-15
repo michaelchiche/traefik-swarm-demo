@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  angular:
+    build: .
+    image: michaelchiche/traefik-swarm-demo
+    ports:
+      - 8080:80
